@@ -104,12 +104,25 @@ flex-wrap: wrap;
 .about-us-nature{
     display: flex;
     justify-content: center;
-    background: rgb(18,36,0);
-background: linear-gradient(81deg, rgba(18,36,0,0.16010154061624648) 0%, rgba(45,121,9,0) 0%, rgba(208,255,225,1) 6%,
-             rgba(4,197,140,0.18531162464985995) 11%, rgba(0,255,158,0.5326505602240896) 16%);
-      
+
 }
 
+.p-about{
+    font-size: 27px;
+    margin: 10%; 
+    padding: 5px;
+}
+.about-pic > img{
+    width: 250px;
+    
+
+}
+
+.about-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
 
 .jackets-outlet{

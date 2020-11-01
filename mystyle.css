@@ -7,12 +7,8 @@ body{
     background: rgb(4,197,140);
     background: linear-gradient(81deg, rgba(4,197,140,0.18531162464985995) 0%, rgba(0,255,158,0.5326505602240896) 48%, rgba(18,36,0,0.16010154061624648) 97%, rgba(13,121,9,0) 100%, rgba(208,255,225,1) 100%);
     background-repeat: no-repeat;
-    font-family: fantasy;
-}
-
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+    
 
 header{
     display: inline-block;
@@ -20,10 +16,7 @@ header{
     
     align-items: center;
     background-color: black;
-    color:white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    ;
-}
+    color:white; }
 
 
 ul a{
@@ -62,54 +55,49 @@ main{
 }
 
 .p-main{
-    font-size: 50px;
+    font-size: 80px;
     color:rgb(119, 165, 59);
-
-
-
 }
+
+
 a {
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 
 
-.frontpage img
-{
+.frontpage img{
     max-width: 100%;
     opacity: 0.8;
 }
 
-.front-outlet img
-{
+.front-outlet img{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 20%;
     text-align: justify; 
     margin: 150px;
 }
 
+
+
 .row{
 display: flex;
 flex-wrap: wrap;
+}
 
 
-}
-.fig-front{
-  
-}
+
 .button1{
     position: relative;
-    top: -150px;
+    top: -180px;
     left: 220px;
-
-
-    
 }
+
+
 .button2{
     position: relative;
-    top: -210px;
-    left: 730px;
+    top: -240px;
+    left: 1000px;
 }
 
 
@@ -125,17 +113,14 @@ flex-wrap: wrap;
     background: linear-gradient(40deg, rgba(83,189,179,0.3925945378151261) 100%, rgba(96,96,96,0.9108018207282913) 100%);
 }
 
-}
-
 .p-about{
     font-size: 27px;
     margin: 10%; 
     padding: 5px;
 }
+
 .about-pic > img{
     width: 250px;
-    
-
 }
 
 .about-pic {
@@ -150,9 +135,6 @@ flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 24px;
     flex-wrap: wrap;
-    
-    
-    
 }
 
  .jackets-outlet img {
@@ -170,7 +152,6 @@ button{
     transition: .5s ease;
     top: 5px;
     left: 12px;
-    
 }
 
 .h1-outlet{
@@ -187,45 +168,107 @@ button{
 }
 
 
-.checkout-box{ 
-width: 100px;
-margin: 200px;
 
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color:#4CAF50;
+    color: whitesmoke;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+
+  
+  
+  
+  span.price {
+    float: right;
+    color:black;
 }
 
-.h3-checkout{
-padding: 40px;
-}
 
-.checkout{
-    padding: 200px;
-    display:flex;
-    justify-content: center;
-    
-    
-}
+ .jacket-checkout{
+    position: relative;
+left: 1890px;
+top: 700px;
+max-width: 18%; 
 
 
-
-
-.jacket-checkout{
-max-width: 20%;
-margin: 20%;
-margin-top: 50px;
 }
 
 .row{
-    /* padding: 40px; */
-
+    padding: 40px;
 }
 
 
-
-
-
-
-
-
+.p-contact{
+    font-size: 30px;
+    text-align:center;
+    position: relative;
+    top: 250px;
+  }
 
 
 .contact {
@@ -233,6 +276,9 @@ margin-top: 50px;
     float: right;
     margin-right: 650px;
     margin-top: 100px;
+    position: relative;
+    top: 160px;
+    left: 300px;
 }
 
 textarea{
@@ -245,8 +291,6 @@ textarea{
 
     display: flex;
     justify-content: left;
-
-
 }
 
 
@@ -281,10 +325,28 @@ textarea{
     header{
         display: flex;
         flex-direction: row;
-        
-        
     }
+
     header ul{
         display: flex;
     }
+     }
+
+
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+  
+  @media (max-width: 600px){ 
+.jacket-checkout{
+    position: relative;
+    left: 710px;
+    top: 350px;
 }
+ }

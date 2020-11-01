@@ -102,31 +102,42 @@ flex-wrap: wrap;
 
 
 
-
-
-
-
 .h1-about{
-    text-align: center;
+    text-align: left;
     font-size: 50px;
     background-color: rgb(83,189,179);
     background: linear-gradient(40deg, rgba(83,189,179,0.3925945378151261) 100%, rgba(96,96,96,0.9108018207282913) 100%);
 }
 
-.p-about{
-    font-size: 27px;
-    margin: 10%; 
-    padding: 5px;
+.h2-about{
+    font-size: 120;
 }
 
+
+.p-about{
+    font-size: 50px;
+    margin: 10%; 
+    padding: 5px;
+    text-align: left;
+    }
+
+
+
 .about-pic > img{
-    width: 250px;
+    width: 500px;
 }
 
 .about-pic {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+
+.p-about{
+
+    display: flex;
+    justify-content: left;
 }
 
 
@@ -158,6 +169,16 @@ button{
     font-size: 50px;
     color: goldenrod;
 }
+
+.p1-outlet{
+    text-align: left;
+    position: relative;
+    top: 80px;
+    left: 80px;
+font-size: 30px;
+}
+
+
 
 
 
@@ -254,8 +275,12 @@ button{
 left: 1890px;
 top: 700px;
 max-width: 18%; 
+}
 
-
+.b-ch{
+    position: relative;
+    top: 185px;
+    left: -855px;
 }
 
 .row{
@@ -263,36 +288,12 @@ max-width: 18%;
 }
 
 
-.p-contact{
-    font-size: 30px;
-    text-align:center;
-    position: relative;
-    top: 250px;
-  }
 
 
-.contact {
-    width: 300px;
-    float: right;
-    margin-right: 650px;
-    margin-top: 100px;
-    position: relative;
-    top: 160px;
-    left: 300px;
-}
 
 textarea{
     background-color: whitesmoke
 }
-
-
-
-.p-about{
-
-    display: flex;
-    justify-content: left;
-}
-
 
 .p-footer {
     color:black;
@@ -310,13 +311,11 @@ textarea{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-
-
-
-
-
-
+.suc{
+    font-size: 200px;
+    position: relative;
+    top: 200px;    
+}
 
 
 
